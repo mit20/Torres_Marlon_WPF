@@ -9,4 +9,4 @@ var slicesPerpizza = 10;
 var guests = 23;
 var pizzasOrdered = 10;
 var slicesPerguest = slicesPerpizza * pizzasOrdered/guests;
-console.log(slicesPerguest);
+console.log("Each person ate" + " "+ slicesPerguest + " " + "slices of pizza at the party.");
