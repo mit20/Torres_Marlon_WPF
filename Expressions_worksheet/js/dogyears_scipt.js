@@ -6,7 +6,8 @@
 
 var humanYear = 1; //Given 1 equals a human year.
 var dogYears = 7;  //Given that 7 dog years are equal to 1 human year.
-
+var sparkyAge = humanYear * dogYears;
+console.log("Sparky is" + " " + humanYear + " " +  "human years old which is" + " " + sparkyAge +" " + "in dog years.");
 
 
 
