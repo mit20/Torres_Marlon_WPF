@@ -5,6 +5,8 @@
 // is in dog years based on his actual age.
 
 var humanYear = 1; //Given 1 equals a human year.
+var dogYears = 7;  //Given that 7 dog years are equal to 1 human year.
+
 
 
 
