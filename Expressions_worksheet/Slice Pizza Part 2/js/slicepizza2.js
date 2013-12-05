@@ -9,8 +9,8 @@
 var slicesPerpizza = 10; //Defines and declares slices per pizza.
 var guests = 23; //Defines and declares total amount of students at party.
 var pizzasOrdered = 10; //Defines and declares total amount of pizzas ordered.
-var slicesPerguest = (slicesPerpizza * pizzasOrdered) % guests;
-var sparkysslices = (slicesPerguest) / guests;
+var slicesPerguest = (slicesPerpizza * pizzasOrdered) % guests; // This line declares slicesPerguest and defines it. Calculates total amount of slices and then comes up with the remainder.
+var sparkysslices = (slicesPerguest) / guests; //Defines and declares letfover amount be dividing slicesPerguest by the number of guest.
 console.log("Sparky got" + " " + sparkysslices + " " +"slices of pizza."); //Prints to console
 
 
