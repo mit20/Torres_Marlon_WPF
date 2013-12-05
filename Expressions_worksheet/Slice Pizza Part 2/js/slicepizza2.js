@@ -6,3 +6,7 @@
 //slices. (Note that this is an example, your code should work and give me the accurate results no matter what numbers
 //I put in for those given variables.)
 
+var slicesPerpizza = 10; //Defines and declares slices per pizza.
+var guests = 23; //Defines and declares total amount of students at party.
+var pizzasOrdered = 10; //Defines and declares total amount of pizzas ordered.
+
