@@ -9,3 +9,12 @@ var depth = prompt("Enter the depth of your pool:");//This is the depth variable
 var cubicFeet = width * length * depth;
 var gallons = cubicFeet * 7.47;
 alert("Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");
+
+console.log("Width entered")//Prints to console and shows "Width entered"
+console.log(width);//Prints to console the actual width that was entered.
+console.log("Length entered")//Prints to console and shows "Length entered"
+console.log(length);//Prints to console the actual length that was entered.
+console.log("Depth entered")//Prints to console and shows "Depth entered"
+console.log(depth);//Prints to console the actual depth that was entered.
+console.log("Cubic feet of pool")//Prints to console and shows "Cubic feet of pool"
+console.log(cubicFeet);//Prints to console the actual cubic feet that was calculated.
