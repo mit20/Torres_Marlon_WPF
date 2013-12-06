@@ -6,8 +6,8 @@ alert("We are calculating how many gallons of water your pool uses.");//This wil
 var width = prompt("Enter the width of your pool:");//This is the width variable that will prompt the user to enter it.
 var length = prompt("Enter the length of your pool:");//This is the length variable that will prompt the user to enter it.
 var depth = prompt("Enter the depth of your pool:");//This is the depth variable that will prompt the user to enter it.
-var cubicFeet = width * length * depth;
-var gallons = cubicFeet * 7.47;
+var cubicFeet = width * length * depth;//Forumula for figuring out the cubic feet.
+var gallons = cubicFeet * 7.47;//Formula for calculating how many gallons of water is need for X amount of cubic feet.
 alert("Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");
 
 console.log("Width entered")//Prints to console and shows "Width entered"
