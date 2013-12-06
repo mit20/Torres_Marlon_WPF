@@ -8,9 +8,9 @@ console.log("Width entered")//Prints to console and shows "Width entered"
 console.log(width);//Prints to console the actual width that was entered.
 var length = prompt("Enter the length of your pool:");//This is the length variable that will prompt the user to enter it.
 var depth = prompt("Enter the depth of your pool:");//This is the depth variable that will prompt the user to enter it.
-var cubicFeet = width * length * depth;//Forumula for figuring out the cubic feet.
-var gallons = cubicFeet * 7.47;//Formula for calculating how many gallons of water is need for X amount of cubic feet.
-alert("Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");
+var cubicFeet = width * length * depth;//This expression declares and defines the variable for the forumula that calculates the cubic feet.
+var gallons = cubicFeet * 7.47;//This expression declares and defines the variable for the formula that calculates how many gallons of water is need for X amount of cubic feet.
+alert("Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");//Alert that shows the results and my string is concatenated (concatenated expression).
 
 console.log("Width entered")//Prints to console and shows "Width entered"
 console.log(width);//Prints to console the actual width that was entered.
