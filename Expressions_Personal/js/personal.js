@@ -16,4 +16,4 @@ console.log("Length entered" + " " + length + " " + "feet")//Prints to console a
 
 console.log("Depth entered" + " " + depth + " " + "feet")//Prints to console and shows "Depth entered"
 
-console.log("Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");//Prints result with explanation to console.
+console.log("Based on the information that was entered, the pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");//Prints result with explanation to console.
