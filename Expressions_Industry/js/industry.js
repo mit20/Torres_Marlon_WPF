@@ -9,10 +9,10 @@ var newHeight = (originalHeight / originalWidth) * newWidth; //Declared and defi
 var result = ("Therefore, your resized image is" + " " + newHeight  + " " + "pixels high" + " "+ "by" + " " + newWidth + " " + "wide." );//Declared and defined result variable and added concatenating string message.
 alert(result);//Alerts user of the result in browser
 
-console.log(originalWidth);//prints to console
-console.log(originalHeight);//prints to console
-console.log(newWidth);//prints to console
-console.log(newHeight);//prints to console
+console.log("Original width"+ " " + originalWidth + " " + "pixels");//prints to console
+console.log("Original height"+ " " +originalHeight + " " + " " + "pixels");//prints to console
+console.log("New width"+ " " +newWidth + " " + "pixels");//prints to console
+console.log("New height"+ " " +newHeight + " " + "pixels");//prints to console
 console.log(result);//prints to console
 
 
