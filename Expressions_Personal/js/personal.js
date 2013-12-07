@@ -8,8 +8,8 @@ var length = prompt("Enter the length of your pool:");//This is the length varia
 var depth = prompt("Enter the depth of your pool:");//This is the depth variable that will prompt the user to enter it.
 var cubicFeet = width * length * depth;//This expression declares and defines the variable for the formula that calculates the cubic feet.
 var gallons = cubicFeet * 7.47;//This expression declares and defines the variable for the formula that calculates how many gallons of water is need for X amount of cubic feet.
-alert("Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.");//Alert that shows the results and my string is concatenated (concatenated expression).
-
+var result = "Based on the information you have entered, \nyour pool is" + " " + cubicFeet + " " + "cubic feet and uses" + " " + gallons + " " +"gallons of water.";//Defines result variable and  that shows the results and shows concatenated strings.
+alert(result); //Displays result to user
 console.log("Width entered" + " " + width + " " + "feet");//Prints to console and shows "Width entered"
 
 console.log("Length entered" + " " + length + " " + "feet")//Prints to console and shows "Length entered"
