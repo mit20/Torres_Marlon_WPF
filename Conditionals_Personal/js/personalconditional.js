@@ -14,15 +14,15 @@ if(move == "Atlanta"){//If statement compares users input to Atlanta if answer i
     if(empOp == "yes"){
         console.log("You should move to Atlanta.");
     }else if(empOp == "no"){
-        console.log("You should consider another city.");
+        console.log("You should move to Miami.");
     }else{
        console.log("Invalid answer! You must enter yes or no.");
     }
 }else if(move == "Miami"){
-    var empOp = prompt("Are there better employment opportunities in Miami than Atlanta? yes/no");
-    if(empOp == "yes")
+    var empOpMia = prompt("Are there better employment opportunities in Miami than Atlanta? yes/no");
+    if(empOpMia == "yes")
     console.log("You should move to Miami.");
-    }else if(empOp == "no"){
+    }if(empOpMia == "no"){
     console.log("Maybe Atlanta has better opportunities.");
 }else{
     console.log("Invalid answer! You must yes or no.");
