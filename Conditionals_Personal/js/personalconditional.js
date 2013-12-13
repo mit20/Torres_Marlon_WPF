@@ -10,10 +10,10 @@
 var move =prompt("Where do you plan on moving to? Atlanta or Miami?", " ");//prompts user with question, user must enter Atlanta or Miami.
 
 if(move == "Atlanta"){//If statement compares users input to Atlanta if answer is Atlanta then prompts user to ask if next question.
-    var empOp = prompt("Are there better employment opportunities in Atlanta than Miami? yes/no", " ");
-    if(empOp == "yes"){
-        console.log("You should move to Atlanta.");
-    }else if(empOp == "no"){
+    var empOp = prompt("Are there better employment opportunities in Atlanta than Miami? yes/no", " ");//prompts question
+    if(empOp == "yes"){//if statement - if user answers yes then they should move to Atlanta.
+        console.log("You should move to Atlanta.");//prints to console.
+    }else if(empOp == "no"){//else if statement, in case user enters no then they're told to move to Miami.
         console.log("You should move to Miami.");
     }else{
        console.log("Invalid answer! You must enter yes or no.");
