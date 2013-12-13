@@ -6,7 +6,7 @@
 //if the tires of a given car are up to spec.
 
 
-var tireArray =["37","37", "38", "38"];//Array for tires
+var tireArray =["37","37", "38", "38"];//Array for the four tires. The numbers are the tire pressure.
 
 //If statements that demonstrate multiple conditions using the Logical Operator &&.
 
