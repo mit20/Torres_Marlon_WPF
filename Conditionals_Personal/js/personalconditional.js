@@ -7,4 +7,16 @@
 //This problem will help you decide if it is better for you to move to Atlanta or Miami based on employment opportunity.
 
 
+var move =prompt("Where do you plan on moving to? Atlanta or Miami?", " ");
+
+if(move == "Atlanta"){
+    var empOp = prompt("Are there better employment opportunities in Atlanta? yes/no", " ");
+    if(empOp == "yes"){
+        console.log("You should move to Atlanta.");
+    }else if(empOp == "no"){
+        console.log("You should consider another city.");
+    }else{
+        console.log("Invalid answer! You must yes or no.");
+    }
+}
 
