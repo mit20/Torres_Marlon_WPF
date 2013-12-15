@@ -1,7 +1,8 @@
 //Marlon Torres - December 14, 2013 - Web Programming Fundamentals - Functions Worksheet
 //Calculate the circumference of a circle.
 
-circumference(10, 3.14); //These are the arguments. Invokes function aka function call.
+var total = circumference(10, 3.14); //These are the arguments. Invokes function aka function call. Where the returned
+//information is stored is established here. In this case it will be stored in the variable total.
 
 function circumference(diameter, pi){ //Parameters - storage
     var calcCircum = diameter * pi;
