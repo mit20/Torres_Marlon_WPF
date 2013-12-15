@@ -5,8 +5,9 @@ circumference(10, 3.14); //These are the arguments. Invokes function aka functio
 
 function circumference(diameter, pi){ //Parameters - storage
     var calcCircum = diameter * pi;
-    console.log("The circumference of the circle is " + calcCircum); //prints to console.
+
 }
 
+console.log("The circumference of the circle is " + calcCircum); //prints to console.
 
 
