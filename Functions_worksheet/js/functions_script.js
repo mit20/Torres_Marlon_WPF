@@ -5,6 +5,7 @@ circumference(10, 3.14); //These are the arguments. Invokes function aka functio
 
 function circumference(diameter, pi){ //Parameters - storage
     var calcCircum = diameter * pi;
+    return calcCircum;//return keyword will get the information out of the function. This will return the calcCircum
 
 }
 
