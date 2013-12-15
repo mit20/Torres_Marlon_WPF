@@ -10,6 +10,6 @@ function circumference(diameter, pi){ //Parameters - storage
 
 }
 
-console.log("The circumference of the circle is " + calcCircum); //prints to console.
+console.log("The circumference of the circle is " + total); //prints to console.
 
 
