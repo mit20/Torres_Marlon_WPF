@@ -7,7 +7,7 @@ var totalStings = beeStings(animalWeight);//Invokes function (calls it). animalW
 
 function beeStings(animalWeight){//function name "beeStings". Variable animalWeight is setup inside the parameter section.
     var calcBeeStings = animalWeight * 8.666666667; //calculates the animal weight by the bee stings per pound.
-    return calcBeeStings;
+    return calcBeeStings;//return keyword, spit information out.
 }
 
 console.log("It takes " + totalStings + " bee stings to kill this animal.");//prints out to console.
