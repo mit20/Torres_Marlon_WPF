@@ -10,6 +10,6 @@ function beeStings(animalWeight){//function name "beeStings". Variable animalWei
     return calcBeeStings;//return keyword, spit information out.
 }
 
-console.log("It takes " + totalStings + " bee stings to kill this animal.");//prints out to console.
+console.log("It takes " + totalStings + " bee stings to kill this animal.");//prints out to console. totalStings = calcBeeStings.
 
 
