@@ -7,4 +7,7 @@ function beeStings(animalWeight){//function name "beeStings". Variable animalWei
     console.log("It takes " + beeStings + " bee stings to kill this animal.");//prints out to console.
 }
 
+var animalWeight = 200;//Defines and declares the value of the variable.
+beeStings(animalWeight);//Invokes function (calls it).
+
 
