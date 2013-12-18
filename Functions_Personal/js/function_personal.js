@@ -11,6 +11,8 @@ function howMuchToSave(){
     var M = 12;
     if (payFrequencyGlobal == W){//If statement with condition and equality operator ==.  If Variable payFrequencyGlobal is equal to W then it will continue to perform action.
         return (salary * percentToSave) / W+ " add text here";//returns or spits out this information (calculation) out of the function.
+    }else if(payFrequency == B){//Else if statment with condition and equality operator ==.  If Variable payFrequencyGlobal is equal to B then it will continue to perform action. otherwise it will move on to next process.
+        return salary * percentToSave / B+ " add text here";
     }
 }
 
