@@ -1,7 +1,7 @@
 //Marlon Torres - December 17, 2013 - Web Programming Fundamentals - Functions Personal
 //This problem allows the user to calculate how much they need to save per pay period in order to save 20% of their annual net salary.
 
-var salaryGlobal = prompt("What is your annual net salary?", " " + " dollars");//Ask user to enter their annual net salary.
+var salaryGlobal = prompt("What is your annual net salary?", " ");//Ask user to enter their annual net salary.
 var payFrequencyGlobal = prompt("How often are you paid? Enter W for weekly, B for biweekly or M for monthly.");
 var percentToSaveGlobal = 0.2;
 
