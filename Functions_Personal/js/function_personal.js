@@ -18,4 +18,4 @@ function howMuchToSave(){
     }
 }
 
-
+console.log(howMuchToSave(salaryGlobal,payFrequencyGlobal, percentToSaveGlobal));//Prints to console.
