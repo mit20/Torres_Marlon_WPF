@@ -6,7 +6,9 @@ var payFrequencyGlobal = prompt("How often are you paid? Enter W for weekly, B f
 var percentToSaveGlobal = 0.2;
 
 function howMuchToSave(){
+    var W = 52;
     
+
 }
 
 
