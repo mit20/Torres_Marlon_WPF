@@ -5,4 +5,8 @@ var salaryGlobal = prompt("What is your annual net salary?", " ");
 var payFrequencyGlobal = prompt("How often are you paid? Enter W for weekly, B for biweekly or M for monthly.");
 var percentToSaveGlobal = 0.2;
 
+function howMuchToSave(){
+    
+}
+
 
