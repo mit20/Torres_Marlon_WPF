@@ -6,9 +6,9 @@ var payFrequencyGlobal = prompt("How often are you paid? Enter W for weekly, B f
 var percentToSaveGlobal = 0.2;
 
 function howMuchToSave(salary, payFrequency, percentToSave){//function named howMuchToSave with parameters inside the parenthesis.
-    var W = 52;
-    var B = 26;
-    var M = 12;
+    var W = 52;//variable W is for weeks, so it will calculate by 52 if W is inputted.
+    var B = 26;//variable B is for weeks, so it will calculate by 26 if W is inputted.
+    var M = 12;//variable M is for weeks, so it will calculate by 12 if W is inputted.
     if (payFrequencyGlobal == W){//If statement with condition and equality operator ==.  If Variable payFrequencyGlobal is equal to W then it will continue to perform action.
         return (salary * percentToSave) / W+ " add text here";//returns or spits out this information (calculation) out of the function.
     }else if(payFrequency == B){//Else if statment with condition and equality operator ==.  If Variable payFrequencyGlobal is equal to B then it will continue to perform action. otherwise it will move on to next process.
