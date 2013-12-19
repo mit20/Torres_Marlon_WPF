@@ -14,13 +14,13 @@ function howMuchToSave(salary, payFrequency, percentToSave){//function named how
         return "You will need to save " + salary * percentToSave / W+ " dollars a week.";//returns or spits out this information (calculation) out of the function.
 
     }else if(payFrequencyGlobal == "B"){//Else if statement with condition and equality operator ==.  If Variable payFrequencyGlobal is equal to B then it will continue to perform action. otherwise it will move on to next process.
-        return salary * percentToSave / B+ " biweekly";
+        return salary * percentToSave / B+ " biweekly";//Spits this information out of function.
 
     }else if(payFrequencyGlobal == "M"){//Else if statement with condition and equality operator ==.  If Variable payFrequencyGlobal is equal to B then it will continue to perform action. otherwise it will move on to next process.
-            return salary * percentToSave / M+ " monthly";
+            return salary * percentToSave / M+ " monthly";//Spits this information out of function.
 
     }else{//Else statement
-        alert("You must enter W, B or M.");
+        alert("You must enter W, B or M.");//else statement. If user doesn't enter one of the choice they will be alerted to enter W, B or M.
         }
 }
 console.log(howMuchToSave(salaryGlobal, payFrequencyGlobal, percentToSaveGlobal));//Prints to console.
