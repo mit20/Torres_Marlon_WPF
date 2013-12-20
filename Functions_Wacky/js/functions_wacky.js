@@ -6,5 +6,13 @@ var tipsGlobal = prompt("What is the number of tips you received today?", " ");/
 
 var moneyGlobal = prompt("What is the dollar amount you made in tips today?", " ");//declared and defined variable.  prompt asks user to enter the dollar amount they earned.
 var calcTips = function (tips,money){ //function with its two parameters.
+    var total =  money/tips;//variable total declared and defined.
+    console.log("You averaged $" + total +" per tip today.");//Prints out to console.
+
+
+
 }
+
+console.log(calcTips(tipsGlobal, moneyGlobal));//Prints to console.
+
 
