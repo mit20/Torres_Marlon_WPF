@@ -26,5 +26,5 @@ if(move == "Atlanta"){//If statement compares users input to Atlanta if answer i
     console.log("Maybe Atlanta has better opportunities.");//prints to console.
 
 }else{//else statement in case user enters something other than yes or no.
-    console.log("Invalid answer! You must enter yes or no.");/prints to console.
+    console.log("Invalid answer! You must enter yes or no.");//prints to console.
 }
