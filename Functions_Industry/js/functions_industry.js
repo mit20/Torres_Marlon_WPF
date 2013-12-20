@@ -26,4 +26,7 @@ function calcSongs(songs, averageSongLength, bitrate){
 
 console.log(calcSongs(songsGlobal, averageSongLengthGlobal, bitrateGlobal));//Prints to console.
 
+var calcRemainingSpace = function( ){//anonymous function.
 
+
+}
