@@ -15,7 +15,7 @@ var calcTips = function (tips,money){ //function with its two parameters.
     }else if (Number(total) >= 100){//else if statement checks to see if total is greater than or equal to 100.
         alert("Anytime you make over a $100 in a shift its a great day!");//Shows user this message.
     }else{//else statement.
-        alert("");
+        alert("");//Shows user message in quotes.  In this case it has been left blank.
     }
 }
 
