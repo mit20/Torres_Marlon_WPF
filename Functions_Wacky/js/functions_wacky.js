@@ -14,10 +14,9 @@ var calcTips = function (tips,money){ //function with its two parameters.
         alert("Anytime you make between $50 and $99 in a shift, its a decent day.");
     }else if (Number(total) >= 100){//else if statement checks to see if total is greater than or equal to 100.
         alert("Anytime you make over a $100 in a shift its a great day!");//Shows user this message.
+    }else{//else statement.
+        alert("");
     }
-
-
-
 }
 
 console.log(calcTips(tipsGlobal, moneyGlobal));//Prints to console.
