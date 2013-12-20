@@ -18,7 +18,6 @@ var calcTips = function (tips,money){ //function with its two parameters.
         alert("");//Shows user message in quotes.  In this case it has been left blank.
     }
 }
-
 console.log(calcTips(tipsGlobal, moneyGlobal));//Prints to console.
 
 
