@@ -26,6 +26,5 @@ function calcSongs(songs, averageSongLength, bitrate){
 console.log(calcSongs(songsGlobal, averageSongLengthGlobal, bitrateGlobal));//Prints to console.
 
 var calcRemainingSpace = function(){//anonymous function.
-    return " You have " (gigabytes * 1024) - calcSong + " megabytes remaining on your iPod.";
-
+    return "You have " + (gigabytes * 1024) - calcSong + " megabytes remaining on your iPod.";
 }
