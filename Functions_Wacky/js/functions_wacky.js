@@ -12,7 +12,7 @@ var calcTips = function (tips,money){ //function with its two parameters.
         alert("Anytime you make less than $50 its a bad day.");
     }else if (Number(total) >= 50 && Number(total) <= 99){//else if statement to check if total is greater than or equal to 50 and less than or equal to 99.
         alert("Anytime you make between $50 and $99 in a shift, its a decent day.");
-    }else if (Number(total) >= 100){
+    }else if (Number(total) >= 100){//else if statement checks to see if total is greater than or equal to 100.
         alert("Anytime you make over a $100 in a shift its a great day!");
     }
 
