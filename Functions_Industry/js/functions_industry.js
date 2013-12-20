@@ -11,3 +11,14 @@ var songsPerGigabyte = 256;//variable is for songs per Gigabyte.  1024kb = 1 mb 
 var mbOne = 1;
 var mbTwo = 2;
 (bitrate == 128)? alert("Song that have 128 may not have the best sound quality, but save a lot of space"): alert("Songs that have a bit rate higher than 128 will take up more space."); //ternary with ? question mark operator.
+
+function calcSongs(size, duration){
+    if(bitrate == "128"){
+        return (songs * averageSongLength) * mbOne;
+    }else if(bitrate == 256){
+        return (songs * averageSongLength) * mbTwo;
+
+    }
+}
+
+
