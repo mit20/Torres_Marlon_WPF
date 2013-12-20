@@ -20,13 +20,12 @@ function calcSongs(songs, averageSongLength, bitrate){
     }else if(bitrate == 256){
         return "If you upload " + songs + " songs, it will take up " + (songs * averageSongLength) * mbTwo + " megabytes.";
     }else{
-        return "You must enter 128 or 256.";
+        return "You must enter 128 or 256. Refresh your page to start over.";
     }
 }
-
 console.log(calcSongs(songsGlobal, averageSongLengthGlobal, bitrateGlobal));//Prints to console.
 
-var calcRemainingSpace = function( ){//anonymous function.
-
+var calcRemainingSpace = function(){//anonymous function.
+    return " You have " (gigabytes * 1024) - calcSong + " megabytes remaining on your iPod.";
 
 }
