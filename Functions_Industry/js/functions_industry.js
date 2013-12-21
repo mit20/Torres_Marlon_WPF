@@ -27,7 +27,7 @@ function calcSongs(songs, averageSongLength, bitrate){ //named function that inc
 }
 var calcRemainingSpace = function(calcSongs){//anonymous function.
 
-    (gigabytes * 1024) - calcSongs;
+    (gigabytes * 1024) - calcSongs;//Expression that has two arithmetic operators.
 }
 console.log("If you upload " + songsGlobal + " songs, it will use " + calcSongs(songsGlobal, averageSongLengthGlobal, bitrateGlobal) + " megabytes.");//Prints to console.
 
