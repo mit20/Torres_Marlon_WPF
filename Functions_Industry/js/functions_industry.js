@@ -4,7 +4,7 @@
 alert("This calculator will calculate how many songs your iPod can hold based on the capacity of your iPod and bit rate of your songs.");//Shows this message to user.
 alert("Based on a 128 bit rate, the average song is about 4 megabytes (1 megabyte per minute of a song, for 256 bit rate its 2 megabytes per minute).");//Alerts user of bit rate information.
 var songsGlobal = prompt("How many songs would you like to load on to your iPod?", " ");
-var gigabytes = prompt("How many gigabytes is your iPod? 8 gb, 16 gb or 32 gb? Please enter a number only.", " ");//declared and defined variable. Prompt asks user question for he/she to input.
+var gigabytesGlobal = prompt("How many gigabytes is your iPod? 8 gb, 16 gb or 32 gb? Please enter a number only.", " ");//declared and defined variable. Prompt asks user question for he/she to input.
 var bitrateGlobal = prompt("What bit rates are your songs? (Enter 128 or 256)");//declared and defined variable bit rate. Prompt asks user question.
 if(bitrateGlobal != 128 && bitrateGlobal !=256 ){//if statement that has the Logical operator && in it.
     prompt("You must enter 128 or 256.");
@@ -16,18 +16,19 @@ var averageSongLengthGlobal =prompt("What is the average length of each of your 
 function calcSongs(songs, averageSongLength, bitrate){ //named function that includes three parameters.
 
     if(bitrate == 128){//if statement (conditional statement if,else if, else).
-        var mbOne = (songs * averageSongLength)*1;
-        return mbOne;//return statement. This will spit this information out.
+        return mbOne = (songs * averageSongLength);//return statement. This will spit this information out.
+
     }else if(bitrate == 256){//else if statement.
-        var mbTwo = (songs * averageSongLength)*2;
-        return mbTwo;//return statement. This will spit this information out.
+        return mbTwo = (songs * averageSongLength)*2;//return statement. This will spit this information out.
+
     }else{//else statement
         return "Refresh your page to start over.";//return statement. This will spit this information out.
     }
 }
-var calcRemainingSpace = function(calcSongs){//anonymous function.
-
-    (gigabytes * 1024) - calcSongs;//Expression that has two arithmetic operators.
-}
 console.log("If you upload " + songsGlobal + " songs, it will use " + calcSongs(songsGlobal, averageSongLengthGlobal, bitrateGlobal) + " megabytes.");//Prints to console.
 
+var calcRemainingSpace = function (gigabytesGlobal, gigabytes){//anonymous function.
+    var oneGig = 1024;//The oneGig variable holds the value of 1024.
+    return (gigabytesGlobal * oneGig) - mbOne || mbTwo;//Expression that has two arithmetic operators ( * and -). This multiplies the gigabyte of the iPod multiply it by 1024 and then subtract the total from the calcSongs calculation to let you know much space you have left in your iPod.
+}
+console.log("You will have " + calcRemainingSpace(gigabytesGlobal, songsGlobal) + " megabytes left on your iPod.");//prints to console.
