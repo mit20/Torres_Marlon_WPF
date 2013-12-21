@@ -6,11 +6,14 @@ alert("Based on a 128 bit rate, the average song is about 4 megabytes (1 megabyt
 var songsGlobal = prompt("How many songs would you like to load on to your iPod?", " ");
 var gigabytes = prompt("How many gigabytes is your iPod? 8 gb, 16 gb or 32 gb? Please enter a number only.", " ");//declared and defined variable. Prompt asks user question for he/she to input.
 var bitrateGlobal = prompt("What bit rates are your songs? (Enter 128 or 256)");//declared and defined variable bit rate. Prompt asks user question.
+if(bitrateGlobal != 128 && bitrateGlobal !=256 ){//if statement that has the Logical operator && in it.
+    prompt("You must enter 128 or 256.");
+}
 var averageSongLengthGlobal =prompt("What is the average length of each of your songs (minutes)? Please enter a whole number i.e. 3, 4 or 5.", " ");
 
 (bitrateGlobal == 128)? alert("Song that have 128 may not have the best sound quality, but save a lot of space"): alert("Songs that have a bit rate higher than 128 will take up more space."); //ternary with ? question mark operator.
 
-function calcSongs(songs, averageSongLength, bitrate){ //named function
+function calcSongs(songs, averageSongLength, bitrate){ //named function that includes three parameters.
 
     if(bitrate == 128){//if statement (conditional statement if,else if, else).
         var mbOne = (songs * averageSongLength)*1;
@@ -19,7 +22,7 @@ function calcSongs(songs, averageSongLength, bitrate){ //named function
         var mbTwo = (songs * averageSongLength)*2;
         return mbTwo;//return statement. This will spit this information out.
     }else{//else statement
-        return "You must enter 128 or 256. Refresh your page to start over.";//return statement. This will spit this information out.
+        return "Refresh your page to start over.";//return statement. This will spit this information out.
     }
 }
 var calcRemainingSpace = function(calcSongs){//anonymous function.
