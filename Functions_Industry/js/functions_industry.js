@@ -27,8 +27,12 @@ function calcSongs(songs, averageSongLength, bitrate){ //named function that inc
 }
 console.log("If you upload " + songsGlobal + " songs, it will use " + calcSongs(songsGlobal, averageSongLengthGlobal, bitrateGlobal) + " megabytes.");//Prints to console.
 
-var calcRemainingSpace = function (gigabytesGlobal, gigabytes){//anonymous function.
+var calcRemainingSpace = function (gigabytesGlobal, mbOne, mbTwo){//anonymous function.
     var oneGig = 1024;//The oneGig variable holds the value of 1024.
-    return (gigabytesGlobal * oneGig) - mbOne || mbTwo;//Expression that has two arithmetic operators ( * and -). This multiplies the gigabyte of the iPod multiply it by 1024 and then subtract the total from the calcSongs calculation to let you know much space you have left in your iPod.
+    if(mbOne){
+        return (gigabytesGlobal * oneGig) - mbOne;//Expression that has two arithmetic operators ( * and -). This multiplies the gigabyte of the iPod multiply it by 1024 and then subtract the total from the calcSongs calculation to let you know much space you have left in your iPod.
+    }if(mbTwo){
+        return (gigabytesGlobal * oneGig) - mbTwo;//Expression that has two arithmetic operators ( * and -). This multiplies the gigabyte of the iPod multiply it by 1024 and then subtract the total from the calcSongs calculation to let you know much space you have left in your iPod.
+    }
 }
 console.log("You will have " + calcRemainingSpace(gigabytesGlobal, songsGlobal) + " megabytes left on your iPod.");//prints to console.
